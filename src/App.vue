@@ -1,51 +1,19 @@
 <template>
   <section class="section">
-    <div class="container">
-      <div class="columns is-multiline is-mobile">
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-        <Card
-          src="https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
-          alt="Image"
-        />
-      </div>
-    </div>
+    <CardSearch />
+    <CardList />
   </section>
 </template>
 
 <script>
-import Card from "./components/Card.vue";
+import CardList from "./components/CardList.vue";
+import CardSearch from "./components/CardSearch.vue";
 
 export default {
   name: "App",
   components: {
-    Card,
+    CardList,
+    CardSearch,
   },
 };
 </script>
