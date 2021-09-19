@@ -26,6 +26,9 @@ export default createStore({
     clear({ commit }) {
       commit(CLEARMORIES);
     },
+    leyla({ dispatch }) {
+      dispatch("search", "leyla");
+    },
   },
   getters: {
     getMories: (state) => {

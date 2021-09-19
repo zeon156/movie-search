@@ -1,6 +1,6 @@
 <template>
+  <CardSearch />
   <section class="section">
-    <CardSearch />
     <CardList />
   </section>
 </template>

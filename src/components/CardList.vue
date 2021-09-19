@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-6">
     <div class="columns is-multiline is-mobile">
       <Card
         v-for="morie in getMorieList()"
@@ -26,4 +26,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mt-6 {
+    margin-top: 5.5rem !important;
+  }
+}
+</style>
