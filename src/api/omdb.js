@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "http://www.omdbapi.com";
+const apiUrl = "https://www.omdbapi.com";
 
 const omdbApi = {
   getMories: async (q) => {
